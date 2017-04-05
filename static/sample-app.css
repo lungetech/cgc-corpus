@@ -1,0 +1,133 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+}
+
+.footer > .container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+html {overflow-y:scroll;}
+
+.p1 {
+	white-space: pre-line;       /* Since CSS 2.1 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-line;      /* Opera 4-6 */
+	white-space: -o-pre-line;    /* Opera 7 */
+	word-wrap: break-line;       /* Internet Explorer 5.5+ */
+}
+
+
+.navbar-nav .dropdown-menu .caret {
+	transform: rotate(-90deg);
+}
+
+.popover {
+	/* max-width: 400px; */
+	min-width: 400px;
+	width: auto;
+	height: auto;
+}
+
+
+
+/* Hide for mobile, show later */
+.sidebar {
+	display: none;
+}
+@media (min-width: 768px) {
+	.sidebar {
+		position: fixed;
+		top: 80px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+		background-color: #f5f5f5;
+		border-right: 1px solid #eee;
+	}
+}
+
+.nav-sidebar {
+	margin-right: -11px; /* 20px padding + 1px border */
+	margin-bottom: 10px;
+	margin-left: -10px;
+}
+
+.nav-sidebar > li > a {
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+	color: #fff;
+	background-color: #428bca;
+}
+
+
+
+.slideout-menu {
+	position: fixed;
+	left: 0;
+	top: 50px;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+	width: 256px;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	display: none;
+}
+
+.slideout-panel {
+	position: relative;
+	z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+	overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+	display: block;
+}
+
+/*
+#main {
+	background: white;
+	height: 100vmin!important;
+}
+
+ */
+	#navbar-main {
+		background: #eee;
+	}
+
+	#navbar-main h4 {
+		margin-top: 30px;
+		padding: 0 15px;
+	}
+
+	#navbar-main ul li a {
+		border-radius: 0;
+	}
+
+	#nav-pills li {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+
