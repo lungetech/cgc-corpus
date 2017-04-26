@@ -1,0 +1,68 @@
+            body {
+                background-color: rgb(42, 42, 42);
+            }
+            svg {
+                background-color: rgb(42, 42, 42);
+                display: block;
+                margin: 0 auto;
+            }
+            .basicblock {
+                stroke: rgb(224, 224, 224);
+            }
+            .edge {
+                fill: none;
+                stroke-width: 1px;
+            }
+            .back_edge {
+                fill: none;
+                stroke-width: 2px;
+            }
+            .UnconditionalBranch, .IndirectBranch {
+                stroke: rgb(128, 198, 233);
+                color: rgb(128, 198, 233);
+            }
+            .FalseBranch {
+                stroke: rgb(222, 143, 151);
+                color: rgb(222, 143, 151);
+            }
+            .TrueBranch {
+                stroke: rgb(162, 217, 175);
+                color: rgb(162, 217, 175);
+            }
+            .arrow {
+                stroke-width: 1;
+                fill: currentColor;
+            }
+            text {
+                font-family: 'Source Code Pro';
+                font-size: 9pt;
+                fill: rgb(224, 224, 224);
+            }
+            a:visited {
+                fill: rgb(128, 198, 223);
+            }
+            .CodeSymbolToken {
+                fill: rgb(128, 198, 223);
+            }
+            .DataSymbolToken {
+                fill: rgb(142, 230, 237);
+            }
+            .TextToken, .InstructionToken, .BeginMemoryOperandToken, .EndMemoryOperandToken {
+                fill: rgb(224, 224, 224);
+            }
+            .PossibleAddressToken, .IntegerToken {
+                fill: rgb(162, 217, 175);
+            }
+            .RegisterToken {
+                fill: rgb(237, 223, 179);
+            }
+            .AnnotationToken {
+                fill: rgb(218, 196, 209);
+            }
+            .ImportToken {
+                fill: rgb(237, 189, 129);
+            }
+            .StackVariableToken {
+                fill: rgb(193, 220, 199);
+            }
+
